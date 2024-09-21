@@ -1,0 +1,6 @@
+displayName = 有用的NPC汉化
+author = 虞悖
+version = 0.24082801
+modReferences = UsefulNPCs
+translationMod = true
+hideCode = true

@@ -1,0 +1,493 @@
+Mods: {
+	UsefulNPCs: {
+		Configs: {
+			UsefulConfig: {
+				dealer: {
+					Label: 允许经销商销售旅行商人、骷髅商人和圣诞老人的物品
+					Tooltip: ""
+				}
+
+				builder: {
+					Label: 允许筑造工售卖各种建筑材料
+					Tooltip: ""
+				}
+
+				hephaestus: {
+					Label: 允许火匠售卖各种矿石、宝石和宝箱物品
+					Tooltip: ""
+				}
+
+				alchemist: {
+					Label: 允许炼金术士售卖各种药水和材料
+					Tooltip: ""
+				}
+
+				martian: {
+					Label: 允许火星人售卖专家掉落物、坐骑和地牢钥匙
+					Tooltip: ""
+				}
+
+				oldChampion: {
+					Label: 允许老冠军出售Boss召唤物、小Boss召唤物、稀有小怪召唤物、稀有掉落物
+					Tooltip: ""
+				}
+
+				shootingStar: {
+					Label: 允许流星售卖各种音乐盒
+					Tooltip: ""
+				}
+
+				DisplayName: 有用的配置
+			}
+		}
+
+		Items: {
+			AstronautsHelmet: {
+				DisplayName: 宇航员头盔
+				Tooltip: 谨献给那些概念NPC
+			}
+
+			Calcium: {
+				DisplayName: 钙片
+				Tooltip:
+					'''
+					"这对你骨头好！"
+					在白天召唤地牢守卫
+					在夜晚召唤骷髅王
+					'''
+			}
+
+			PlanteraBulb: {
+				DisplayName: 世纪之花花苞
+				Tooltip:
+					'''
+					"这并朵花并不好闻！"
+					在丛林使用以召唤世纪之花
+					'''
+			}
+
+			MartianProbe: {
+				DisplayName: 火星发讯器
+				Tooltip: 召唤火星人入侵
+			}
+
+			AdventurersGlasses: {
+				DisplayName: 冒险者的护目镜
+				Tooltip:
+					'''
+					"不幸的是，它碎掉了"
+					召唤骷髅博士
+					'''
+			}
+
+			BoneLeesBelt: {
+				DisplayName: 骷髅李小龙的皮带
+				Tooltip:
+					'''
+					"这是他实力的象征"
+					召唤骷髅李小龙
+					'''
+			}
+
+			BurningCore: {
+				DisplayName: 焦蚀核心
+				Tooltip:
+					'''
+					"你不应该触碰这样高温的东西"
+					召唤沙尘精
+					'''
+			}
+
+			EmptyChest: {
+				DisplayName: 空箱子
+				Tooltip:
+					'''
+					"这是个诱饵！"
+					召唤宝箱怪
+					'''
+			}
+
+			FakeRocketLauncher: {
+				DisplayName: 火箭发射器（伪）
+				Tooltip:
+					'''
+					"这就是个玩具"
+					召唤骷髅突击手
+					'''
+			}
+
+			FakeSniperRifle: {
+				DisplayName: 狙击步枪（伪）
+				Tooltip:
+					'''
+					"这就是个玩具"
+					召唤骷髅狙击手
+					'''
+			}
+
+			FakeTacticalShotgun: {
+				DisplayName: 战术霰弹枪（伪）
+				Tooltip:
+					'''
+					"这就是个玩具"
+					召唤骷髅特警
+					'''
+			}
+
+			FrozenCore: {
+				DisplayName: 霜裂核心
+				Tooltip:
+					'''
+					"据说触碰此物的人都被永久的冰封了"
+					召唤冰雪巨人
+					'''
+			}
+
+			MagicHat: {
+				DisplayName: 魔术帽
+				Tooltip:
+					'''
+					"增加高达0%的魔法伤害！"
+					召唤蒂姆
+					'''
+			}
+
+			MagicSingularity: {
+				DisplayName: 魔术奇点
+				Tooltip:
+					'''
+					"小心！他会引来一些更为强大的魔法"
+					召唤符文巫师
+					'''
+			}
+
+			MissingPoster: {
+				DisplayName: 丢失的报告
+				Tooltip:
+					'''
+					"她在哪里！"
+					召唤迷失女孩
+					'''
+			}
+
+			MothPheromone: {
+				DisplayName: 蛾信息素
+				Tooltip:
+					'''
+					"去攻击蛾！"
+					召唤蛾
+					'''
+			}
+
+			PaladinSymbol: {
+				DisplayName: 圣骑士勋章
+				Tooltip:
+					'''
+					"神圣的象征"
+					召唤圣骑士
+					'''
+			}
+
+			PinkJelly: {
+				DisplayName: 粉色果冻
+				Tooltip:
+					'''
+					"这看起来很好吃！"
+					召唤粉史莱姆
+					'''
+			}
+
+			RainbowJelly: {
+				DisplayName: 彩虹果冻
+				Tooltip:
+					'''
+					"这看起来很好吃！"
+					召唤彩虹史莱姆
+					'''
+			}
+
+			ScoutEmblem: {
+				DisplayName: 侦察兵徽章
+				Tooltip:
+					'''
+					"我不想再闻到这个气味"
+					召唤哥布林侦察兵
+					'''
+			}
+
+			StickyKey: {
+				DisplayName: 黏糊糊的钥匙
+				Tooltip:
+					'''
+					"你不应该拿这个来打开宝箱"
+					召唤地牢史莱姆
+					'''
+			}
+		}
+
+		NPCs: {
+			Alchemist: {
+				DisplayName: 炼金术士
+
+				TownNPCMood: {
+					Content: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.Content}"
+					NoHome: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.NoHome}"
+					FarFromHome: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.FarFromHome}"
+					LoveSpace: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.LoveSpace}"
+					DislikeCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.DislikeCrowded}"
+					HateCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.HateCrowded}"
+					LikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.LikeBiome}"
+					DislikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.DislikeBiome}"
+					LikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.LikeNPC}"
+					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.HateNPC}"
+					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Alchemist.LikeNPC_Princess}"
+					Princess_LovesNPC: 我喜欢{NPCName}！
+				}
+			}
+
+			Builder: {
+				DisplayName: 筑造工
+
+				TownNPCMood: {
+					Content: "{$Mods.UsefulNPCs.TownNPCMood.Builder.Content}"
+					NoHome: "{$Mods.UsefulNPCs.TownNPCMood.Builder.NoHome}"
+					FarFromHome: "{$Mods.UsefulNPCs.TownNPCMood.Builder.FarFromHome}"
+					LoveSpace: "{$Mods.UsefulNPCs.TownNPCMood.Builder.LoveSpace}"
+					DislikeCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Builder.DislikeCrowded}"
+					HateCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Builder.HateCrowded}"
+					LoveBiome: "{$Mods.UsefulNPCs.TownNPCMood.Builder.LoveBiome}"
+					LikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.Builder.LikeBiome}"
+					DislikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.Builder.DislikeBiome}"
+					LikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Builder.LikeNPC}"
+					DislikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Builder.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Builder.LikeNPC_Princess}"
+					Princess_LovesNPC: 我喜欢{NPCName}！
+				}
+			}
+
+			Dealer: {
+				DisplayName: 经销商
+
+				TownNPCMood: {
+					Content: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.Content}"
+					NoHome: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.NoHome}"
+					FarFromHome: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.FarFromHome}"
+					LoveSpace: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.LoveSpace}"
+					DislikeCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.DislikeCrowded}"
+					HateCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.HateCrowded}"
+					LikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.LikeBiome}"
+					DislikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.DislikeBiome}"
+					LoveNPC: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.LoveNPC}"
+					LikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.LikeNPC}"
+					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.HateNPC}"
+					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Dealer.LikeNPC_Princess}"
+					Princess_LovesNPC: 我喜欢{NPCName}！
+				}
+			}
+
+			Hephaestus: {
+				DisplayName: 火匠
+
+				TownNPCMood: {
+					Content: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.Content}"
+					NoHome: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.NoHome}"
+					FarFromHome: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.FarFromHome}"
+					LoveSpace: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.LoveSpace}"
+					DislikeCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.DislikeCrowded}"
+					HateCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.HateCrowded}"
+					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Hephaestus.LikeNPC_Princess}"
+					Princess_LovesNPC: 我喜欢{NPCName}！
+				}
+			}
+
+			Martian: {
+				DisplayName: 火星人
+
+				TownNPCMood: {
+					Content: "{$Mods.UsefulNPCs.TownNPCMood.Martian.Content}"
+					NoHome: "{$Mods.UsefulNPCs.TownNPCMood.Martian.NoHome}"
+					FarFromHome: "{$Mods.UsefulNPCs.TownNPCMood.Martian.FarFromHome}"
+					LoveSpace: "{$Mods.UsefulNPCs.TownNPCMood.Martian.LoveSpace}"
+					DislikeCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Martian.DislikeCrowded}"
+					HateCrowded: "{$Mods.UsefulNPCs.TownNPCMood.Martian.HateCrowded}"
+					LikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.Martian.LikeBiome}"
+					DislikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.Martian.DislikeBiome}"
+					LoveNPC: "{$Mods.UsefulNPCs.TownNPCMood.Martian.LoveNPC}"
+					LikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Martian.LikeNPC}"
+					DislikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.Martian.DislikeNPC}"
+					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.Martian.LikeNPC_Princess}"
+					Princess_LovesNPC: 我喜欢{NPCName}！
+				}
+			}
+
+			OldChampion: {
+				DisplayName: 老冠军
+
+				TownNPCMood: {
+					Content: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.Content}"
+					NoHome: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.NoHome}"
+					FarFromHome: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.FarFromHome}"
+					LoveSpace: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.LoveSpace}"
+					DislikeCrowded: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.DislikeCrowded}"
+					HateCrowded: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.HateCrowded}"
+					LikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.LikeBiome}"
+					DislikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.DislikeBiome}"
+					LikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.LikeNPC}"
+					DislikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.DislikeNPC}"
+					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.HateNPC}"
+					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.OldChampion.LikeNPC_Princess}"
+					Princess_LovesNPC: 我喜欢{NPCName}！
+				}
+			}
+
+			ShootingStar: {
+				DisplayName: 流星
+
+				TownNPCMood: {
+					Content: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.Content}"
+					NoHome: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.NoHome}"
+					FarFromHome: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.FarFromHome}"
+					LoveSpace: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.LoveSpace}"
+					DislikeCrowded: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.DislikeCrowded}"
+					HateCrowded: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.HateCrowded}"
+					LoveBiome: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.LoveBiome}"
+					LikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.LikeBiome}"
+					DislikeBiome: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.DislikeBiome}"
+					LoveNPC: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.LoveNPC}"
+					LikeNPC: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.LikeNPC}"
+					HateNPC: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.HateNPC}"
+					LikeNPC_Princess: "{$Mods.UsefulNPCs.TownNPCMood.ShootingStar.LikeNPC_Princess}"
+					Princess_LovesNPC: 我喜欢{NPCName}！
+				}
+			}
+		}
+
+		TownNPCMood: {
+			Alchemist: {
+				Content: 我很好
+				NoHome: 我需要一些空间来储存我的药水
+				FarFromHome: 我不能在离家这么远的地方工作！
+				DislikeCrowded: 你不觉得这附近有点太吵了吗
+				HateCrowded: 这里太吵了！我根本没法集中精力于我的药水！
+				LoveSpace: 哦！这里真好！没有噪音！真棒！
+				LikeBiome: "{BiomeName}是种植草药的好地方！"
+				LoveBiome: 我喜欢{BiomeName}
+				DislikeBiome: 我并不认为{BiomeName}能长出草药
+				HateBiome: 在{BiomeName}做事太危险了！
+				LikeNPC: 我喜欢{NPCName}那冷酷的样子！
+				LoveNPC: 我要爱上{NPCName}了！
+				DislikeNPC: 说真的，{NPCName}让我感到讨厌
+				HateNPC: 我不理解{NPCName}为什么总是一副要和人打起来的样子
+				LikeNPC_Princess: "{NPCName}是一个优秀的园丁，我很喜欢他"
+			}
+
+			Builder: {
+				Content: 我很好，至少现在我很好
+				NoHome: 没有一个住处的话我建不出任何东西！
+				FarFromHome: 我需要我的设备来工作！
+				DislikeCrowded: 你不需要和这么多人来一起建房子！有我就够了！
+				HateCrowded: 这里太挤了！我连头盔都戴不了了！
+				LoveSpace: 我不必担心在这里吵闹！因为我想根本没有人能听得见！
+				LikeBiome: "{BiomeName}是个收集大理石的好地方！"
+				LoveBiome: "{BiomeName}给了我无数的灵感！"
+				DislikeBiome: 我真心不喜欢{BiomeName}，只是彩虹，却不精明
+				HateBiome: 我的确说过我能在任何地方建造东西，但{BiomeName}是我的极限了
+				LikeNPC: 我喜欢{NPCName}直言不讳的作风！
+				LoveNPC: 我要爱上{NPCName}了！
+				DislikeNPC: "{NPCName}认为建筑不是一种艺术形式.他根本没有对艺术的鉴赏力！"
+				HateNPC: 不要提到{NPCName}！我一点也不想听到这个名字
+				LikeNPC_Princess: 我参观过{NPCName}的宫殿！那很华丽！
+			}
+
+			Dealer: {
+				Content: 我很好
+				NoHome: 我需要一个地方安顿下来
+				FarFromHome: 这让我想起了我被困住的糟糕时光
+				DislikeCrowded: 人们开始怀疑我是怎么得到我的货物的...
+				HateCrowded: 我想我可能会被这么多人搞砸！
+				LoveSpace: 周围没有多少人问我任何事情。我喜欢这样！
+				LikeBiome: "{BiomeName}是一个藏身的好地方：货物和我自己"
+				LoveBiome: 我爱{BiomeName}
+				DislikeBiome: 我无法在{BiomeName}重新进货。这里太开放了，不能做生意！
+				HateBiome: 风浪越大，鱼越贵。不错，但{BiomeName}只有风浪
+				LikeNPC: 你曾与{NPCName}交谈过吗？他真的是个很棒的人！
+				LoveNPC: 你觉得{NPCName}也在想我吗？
+				DislikeNPC: 说真的，{NPCName}让我感到讨厌
+				HateNPC: 你能告诉{NPCName}让他离我远点吗？让他和护士过他们的狗日子去吧！
+				LikeNPC_Princess: "{NPCName}是唯一一个不问我是怎么得到这些的人"
+			}
+
+			Hephaestus: {
+				Content: 我很好...
+				NoHome: 我或许是上帝，但是我仍然需要一个房子！
+				FarFromHome: 我真的不介意离家太远，但游戏机制告诉我，我应该讨厌这样
+				DislikeCrowded: 我并不认为这里的人快乐
+				HateCrowded: 你在建造房子方面太懒了...
+				LoveSpace: 幸福很重要。是的，我是这么认为的
+				LikeBiome: 我喜欢{BiomeName}
+				LoveBiome: 我爱{BiomeName}
+				DislikeBiome: 我讨厌{BiomeName}
+				HateBiome: 这里太让人恶心了。你不能移动我的房子吗？
+				LikeNPC: 我喜欢{NPCName}！
+				LoveNPC: 我要爱上{NPCName}了！
+				DislikeNPC: 说真的{NPCName}让我感到讨厌
+				HateNPC: 不要提到{NPCName}！我一点也不想听到这个名字
+				LikeNPC_Princess: 我必须需要{NPCName},否则这会变得很复杂
+			}
+
+			Martian: {
+				Content: 我猜我很好
+				NoHome: 没有地方能让我回去了，所以我真的很想有个家
+				FarFromHome: 我又被抛弃了吗？？救命！？
+				DislikeCrowded: 我不喜欢人们盯着我看
+				HateCrowded: 我想人们打算把我赶出去
+				LoveSpace: 我不必在这里如履薄冰
+				LikeBiome: 这种寒冷让我想起了我来自哪里
+				LoveBiome: 我爱{BiomeName}
+				DislikeBiome: "{BiomeName}太热了！真的有生命体在这里生存？"
+				HateBiome: 我知道我做了一些可疑的事情，但把我放在这里并不是好办法
+				LikeNPC: "{NPCName}是一个有趣的标本。"
+				LoveNPC: 那...那真的是{NPCName}吗！我的天哪兄弟！我需要和他谈谈！
+				DislikeNPC: 我认为{NPCName}是在研究他的俘虏,但他只是在“保护”大自然，真蠢！
+				HateNPC: 不要提到{NPCName}！我一点也不想听到这个名字
+				LikeNPC_Princess: 我真的不明白为什么大家喜欢{NPCName},但我想我必须喜欢她才能融入其中
+			}
+
+			OldChampion: {
+				Content: 我很好
+				NoHome: 你不知道如何对待长辈吗？给我一个家！
+				FarFromHome: 你是说我必须一路走回家吗？
+				DislikeCrowded: 这些人应该一次一个地开始说话，好烦！他们不知道要看长辈的脸色吗？
+				HateCrowded: 如果你认为让我听不见这种噪音，那你就错了
+				LoveSpace: 就在这附近...我可以做老年人的事情了
+				LikeBiome: 唔,{BiomeName}, 呆起来很舒适
+				LoveBiome: 我爱{BiomeName}
+				DislikeBiome: 谁制作了{BiomeName}生物群系？他是没有脑子吗？
+				HateBiome: 如果我年轻10岁，我会要求住在这里，但现在我年轻不了十岁
+				LikeNPC: "{NPCName}是这里唯一的好人。"
+				LoveNPC: 我要爱上{NPCName}了！
+				DislikeNPC: 那个白胡子的{NPCName}是如此的狭隘！像肯尼迪一眼敞开胸怀！
+				HateNPC: 在我跟着{NPCName}的这些天，他总是用“好的，新迁入者”来回应我，这是什么意思？
+				LikeNPC_Princess: "{NPCName}非常懂礼节。她一定有好父母"
+			}
+
+			ShootingStar: {
+				Content: (她似乎太专注于Orangestar的音乐了)
+				NoHome: 我需要一个地方来抄下Orangestar的乐谱！
+				FarFromHome: 我从流星变成了一颗孤独的星星。希望我能像Orangestar那样出色！
+				DislikeCrowded: 今天有两个人来告诉我降低音量。可我在播放Orangestar的音乐！他们真没有品位！！！
+				HateCrowded: 大众不会理解像我这样的天才音乐家，他们甚至不听Orangestar！
+				LoveSpace: 我应该把音量再调大一点吗？人们可能听不见
+				LikeBiome: 彩虹...让我觉得很酷！Orangestar也很酷！
+				LoveBiome: "{BiomeName}有很酷的背景音乐！虽然比Orangestar差远了！"
+				DislikeBiome: "{BiomeName}只是充满了嗡嗡声。我不喜欢这样！他该去听听Orangestar的音乐了！"
+				HateBiome: 我喜欢这里的音乐，但我还没听完。不过无所谓了，注定超越不了Orangestar
+				LikeNPC: 不用说，{NPCName}肯定知道Orangestar。我甚至可以说，她“是最有品位的人”！
+				LoveNPC: 嘿，你能不能问问{NPCName}喜不喜欢Orangestar
+				DislikeNPC: 我讨厌不喜欢Orangestar的人，就比如{NPCName}
+				HateNPC: "{NPCName}之前和我说Orangestar的音乐很糟糕！他太没有品味了！就和他的建筑一样！"
+				LikeNPC_Princess: "{NPCName}的品位超级好！我也很喜欢Orangestar！"
+			}
+		}
+	}
+}
