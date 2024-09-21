@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectGuid>{9FDAB6BE-DA5E-4CE3-86B7-F2139863830F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>ConsoleApplication</AssemblyName>
@@ -29,6 +29,9 @@
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>UNPCCP</RootNamespace>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -37,6 +40,34 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\UNPCCP\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\UNPCCP\FileContentIndex\0582f2fb-515b-46fb-92a5-d58dace9a742.vsidx" />
+    <None Include=".vs\UNPCCP\FileContentIndex\46774cee-9741-4958-8636-b4f3b0279dec.vsidx" />
+    <None Include=".vs\UNPCCP\FileContentIndex\6b72b526-8d30-479c-aff3-e2c29af1c652.vsidx" />
+    <None Include=".vs\UNPCCP\FileContentIndex\9b5c2240-48c7-413b-915f-2c6151266d79.vsidx" />
+    <None Include=".vs\UNPCCP\FileContentIndex\dd4f9948-36b0-4eab-9895-146d75f9b83e.vsidx" />
+    <None Include=".vs\UNPCCP\v17\.suo" />
+    <None Include=".vs\UNPCCP\v17\DocumentLayout.backup.json" />
+    <None Include=".vs\UNPCCP\v17\DocumentLayout.json" />
+    <None Include="app.config" />
+    <None Include="Localization\en-US.hjson" />
+    <None Include="Localization\zh-Hans.hjson" />
+    <None Include="Properties\launchSettings.json" />
+    <None Include="UNPCCP.csproj.bak" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="build.txt" />
+    <Content Include="description.txt" />
+    <Content Include="icon.png" />
+    <Content Include="icon_workshop.png" />
+    <Content Include="lib\UsefulNPCs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GlobalTranslation\NPCText.cs" />
+    <Compile Include="GlobalTranslation\StatsTranslate.cs" />
+    <Compile Include="UNPCCP.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>

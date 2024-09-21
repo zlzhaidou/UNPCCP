@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNPCCP", "UNPCCP.csproj", "{9FDAB6BE-DA5E-4CE3-86B7-F2139863830F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FDAB6BE-DA5E-4CE3-86B7-F2139863830F}.Debug|x86.ActiveCfg = Debug|x86
+		{9FDAB6BE-DA5E-4CE3-86B7-F2139863830F}.Debug|x86.Build.0 = Debug|x86
+		{9FDAB6BE-DA5E-4CE3-86B7-F2139863830F}.Release|x86.ActiveCfg = Release|x86
+		{9FDAB6BE-DA5E-4CE3-86B7-F2139863830F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D877182-47D8-4545-88B3-B80E5331CD32}
+	EndGlobalSection
+EndGlobal
